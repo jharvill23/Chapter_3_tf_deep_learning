@@ -38,6 +38,8 @@ with tf.name_scope('optim'):
     train_op = tf.train.AdamOptimizer(.001).minimize(l)
 with tf.name_scope('summaries'):
     x = 5
+# added some comments for github
+dummy_var = 5
 learning_rate = .001
 W = tf.Variable((3,))
 l = tf.reduce_sum(W)
